@@ -4,7 +4,7 @@ import requests
 from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, CommandHandler, ContextTypes, filters
 
-BOT_TOKEN = os.getenv("8551495584:AAHdT8EIvfTQCv6H5iRG3kB23SYa7-hQxRg")
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 API_URL = "https://xtrasmm.in/api/v2"  # change if needed
 USERS_FILE = "users.json"
 
